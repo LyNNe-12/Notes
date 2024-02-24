@@ -1,18 +1,9 @@
 const inputElement = document.getElementById('title');
 const createBtn = document.getElementById('create');
 const listElement = document.getElementById('list');
-/*
 const notes = [
-    {
-        title: 'записать блок про массивы',
-        completed: false,
-    },
-    {
-        title: 'рассказать теорию объектов',
-        completed: true,
-    },
+    
 ];
-*/
 function render() {
     listElement.innerHTML = '';
     if (notes.length === 0) {
